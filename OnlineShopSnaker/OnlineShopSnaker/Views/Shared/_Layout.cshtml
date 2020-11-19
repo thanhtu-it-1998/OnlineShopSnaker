@@ -65,17 +65,17 @@
                                 <li class="has-dropdown">
                                 @Html.ActionLink("Men", "Men", "Home")
                                 <ul class="dropdown">
-                                    <li>@Html.ActionLink("Product Detail", "Index", "Product")</li>
-                                    <li><a href="cart.html">Shopping Cart</a></li>
-                                    <li><a href="checkout.html">Checkout</a></li>
-                                    <li><a href="order-complete.html">Order Complete</a></li>
-                                    <li><a href="add-to-wishlist.html">Wishlist</a></li>
+                                    <li>@Html.ActionLink("Product Detail", "ProductDetail", "Product")</li>
+                                    <li>@Html.ActionLink("Shopping Cart", "Cart", "Product")</li>
+                                    <li>@Html.ActionLink("Check Out", "Checkout", "Product")</li>
+                                    <li>@Html.ActionLink("Order Complete", "OrderComplete", "Product")</li>
+                                    <li>@Html.ActionLink("Add To Wishlist", "AddToWishlish", "Product")</li>
                                 </ul>
                                 </li>
                                 <li>@Html.ActionLink("Women", "Women", "Home")</li>
                                 <li>@Html.ActionLink("About", "About", "Home")</li>
                                 <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
-                                <li class="cart"><a href="cart.html"><i class="icon-shopping-cart"></i> Cart [0]</a></li>
+                                <li class="cart"><i class="icon-shopping-cart"></i> @Html.ActionLink(" Cart", "Cart", "Product")<span>[ 1 ]</span>   </li>
                             </ul>
                         </div>
                     </div>

@@ -9,7 +9,26 @@ namespace OnlineShopSnaker.Controllers
     public class ProductController : Controller
     {
         // GET: Product
-        public ActionResult Index()
+        public ActionResult ProductDetail()
+        {
+            return View();
+        }
+
+        public ActionResult Cart()
+        {
+            return View();
+        }
+
+        public ActionResult Checkout()
+        {
+            return View();
+        }
+
+        public ActionResult OrderComplete()
+        {
+            return View();
+        }
+        public ActionResult AddToWishlist()
         {
             return View();
         }
