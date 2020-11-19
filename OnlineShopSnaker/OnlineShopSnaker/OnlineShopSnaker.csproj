@@ -184,6 +184,8 @@
     <Content Include="Assets\images\person1.jpg" />
     <Content Include="Assets\images\person2.jpg" />
     <Content Include="Assets\images\person3.jpg" />
+    <Content Include="Assets\images\sneakers.svg" />
+    <Content Include="Assets\images\trainers.png" />
     <Content Include="Assets\images\women.jpg" />
     <Content Include="Assets\js\aos.js" />
     <Content Include="Assets\js\bootstrap-datepicker.js" />
